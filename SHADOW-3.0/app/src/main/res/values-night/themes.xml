@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dark theme overrides (Black & White default interface) -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Shadow" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/shadow_black</item>
+        <item name="colorOnPrimary">@color/shadow_white</item>
+        <item name="colorPrimaryContainer">@color/shadow_dark_card</item>
+        <item name="colorOnPrimaryContainer">@color/shadow_white</item>
+        <item name="colorSecondary">@color/shadow_dark_card</item>
+        <item name="colorOnSecondary">@color/shadow_white</item>
+        <item name="colorSurface">@color/shadow_dark_surface</item>
+        <item name="colorOnSurface">@color/shadow_white</item>
+        <item name="android:colorBackground">@color/shadow_black</item>
+        <item name="colorOnBackground">@color/shadow_white</item>
+        <item name="colorError">@color/shadow_error</item>
+        <item name="android:windowBackground">@color/shadow_black</item>
+        <item name="android:statusBarColor">@color/shadow_black</item>
+        <item name="android:navigationBarColor">@color/shadow_black</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+</resources>
